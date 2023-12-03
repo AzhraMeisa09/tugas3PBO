@@ -42,12 +42,13 @@ public class VirtualDemo {
                 System.out.println("----------------------------------------------");
                 System.out.println("Tanggal\t\t: " + tanggal.format(hariSekarang));
                 System.out.println("Waktu\t\t: " + waktu.format(hariSekarang));
-                System.out.println("Kasir\t\t: MEISA");
                 System.out.println("==============================================");
                 System.out.println("\t\tDATA PELANGGAN\t");
-                System.out.println("==============================================");
+                System.out.println("----------------------------------------------");
                 System.out.println(invoice);
                 System.out.println("TOTAL BAYAR\t: " + invoice.hitungTotalBayar());
+                System.out.println("++++++++++++++++++++++++++++++++++++++++++++++");
+                System.out.println("Kasir\t\t: MEISA");
 
                 inputValid = true; // Jika tidak terjadi exception, keluar dari perulangan
 

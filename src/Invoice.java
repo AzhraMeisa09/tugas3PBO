@@ -26,9 +26,9 @@ public class Invoice extends Item {
             "Nama Pelanggan\t: " + customerName + "\n" + 
             "Nomor HP\t: " + numberPhone + "\n"+ 
             "Alamat\t\t: " + customerAddress + "\n"+
-            "=============================================="+"\n"+
-            "\t\tDATA PEMBELIAN\t"+"\n"+
-            "=============================================="+
+            "++++++++++++++++++++++++++++++++++++++++++++++"+"\n"+
+            "\tDATA PEMBELIAN BARANG\t"+"\n"+
+            "----------------------------------------------"+
             "\nKode Barang\t: "+ invoiceNumber +"\n"+
             super.toString();
         }
